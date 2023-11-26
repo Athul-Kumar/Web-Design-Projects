@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+html,body{
+
+    height: 100%;
+    width: 100%; 
+}
+
+
+
+#nav-bar{
+
+    width: 100%;
+    padding: 38px 0 38px 50px;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#nav-bar h1{
+    font-size: 26px;
+   
+}
+
+
+#main{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    position: relative;
+    
+}
+
+
+#container{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    padding: 32px 0;
+    border-radius: 10px;
+    position: relative;
+   
+}
+
+#container h1{
+    margin: 48px 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0;
+
+
+} 
+#btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn button{
+
+    width: 205px;
+    height: 32px;
+    background-color: #000;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+#btn-container{
+
+    padding: 8px 32px;
+    border: 2px solid rgba(255, 255, 255, 0.703);
+    margin-bottom: 10px;
+    border-radius: 50px;
+
+}
+
+#separation{
+
+    width: 75%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.719);
+    position: relative;
+    left: 12%;
+    margin: 30px 0;
+}
+
+
+#form-container form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+    padding-left: 5%;
+}
+
+#form-container form p{
+
+    font-size: 16px;
+    font-weight: 400;
+   padding-right: 25%;
+    
+}
+
+#form-container form .sec{
+    padding-right: 35%;
+    padding-top: 10px;
+}
+
+#form-container form input{
+
+    width: 45%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #111;
+    border: none;
+    padding: 10px;
+    font-weight: 0;
+    color: #A7A7A7;
+
+}
+#log-in{
+
+    width: 45%;
+    background-color: #1FDF64;
+    margin: 50px 0 25px;
+    margin-left: 30%;
+    padding: 15px 0;
+    border-radius: 25px;
+    
+}
+#log-in p{
+    text-align: center;
+    color: #000;
+}
+a{
+    margin-left: 40%;
+    font-size: 16px;
+   
+}
+
+
+#sign-in{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   gap: 10px;
+   height: 10vh;
+   padding: 0;
+   margin: 0;
+}
+
+#sign-in a{
+    margin: 0;
+    display: inline-block;
+}
+#sign-in p{
+    display: inline-block;
+    font-weight: 100;
+    color: #A7A7A7;
+    
+}
+
