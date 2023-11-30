@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+   
+}
+#homepage{
+    width: 100%;
+    height:100%;
+    background-image:url(https:\2f\2f assets.volvo.com\2fis\2fimage\2fVolvoInformationTechnologyAB\2f banner-2400x720-new?qlt=82\26wid=1400\26ts=1629721903356\26 dpr=off\26 fit=constrain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+#nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+#nav h3{
+  
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1vw;
+
+}
+#nav h5{
+    font-family: 'Roboto', sans-serif;
+}
+#title{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    line-height:  5.5vw;
+}
+
+#page-1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; */
+    padding: 1.5vw 4vw;
+    
+}
+#page-1 h6{
+    margin-bottom: 1vw;
+    font-weight: 100;
+    font-size: .5rem;
+    color: rgba(35, 22, 22, 0.161)
+}
+#page-1 h2{
+    margin-bottom: 3vw;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.826);
+  
+}
+
+#curosel{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+
+#curosel img{
+
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#arrow-slides{
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#arrow-slides i{
+    color: rgba(15, 55, 173, 0.936);
+    font-size: 4.5vw;
+   
+}
+#arrow-slides hr{
+    width: 85%;
+}
+
+@media (max-width:600px){
+    #homepage{
+        height: 75%;
+    }
+    #nav{
+        padding: 0 5vw 0 3.5vw;
+    }
+    #title{
+        left: 5%;
+        width: 80%;
+        height: 30%;
+        top: 50%;
+        line-height:  10vw;
+    }
+}
