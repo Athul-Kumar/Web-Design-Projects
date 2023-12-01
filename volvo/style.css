@@ -60,8 +60,8 @@ html,body{
 #page-1{
     width: 100%;
     height: 100vh;
-    /* background-color: bisque; */
     padding: 1.5vw 4vw;
+    
     
 }
 #page-1 h6{
@@ -84,7 +84,9 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    /* background-color: aqua; */
     gap: 2vw;
+    overflow: hidden;
 }
 
 #curosel img{
@@ -93,12 +95,13 @@ html,body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    /* overflow: hidden; */
 }
 
 #arrow-slides{
 
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -107,10 +110,148 @@ html,body{
 #arrow-slides i{
     color: rgba(15, 55, 173, 0.936);
     font-size: 4.5vw;
+    cursor: pointer;
    
 }
 #arrow-slides hr{
     width: 85%;
+}
+
+
+#page-2{
+    width: 100%;
+    height: 100vh;
+    padding: 1.5vw 4vw;
+    /* background-color: red; */
+}
+#page-2 video{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+#page-3{
+    width: 100%;
+    height: 75vh;
+    padding: 1.5vw 4vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3.5vh;
+    
+}
+#left-side{
+    width: 50%;
+    padding-right: 3vw;
+}
+
+#left-side h6, #left-side h3{
+    color: #000;
+}
+
+#left-side h3{
+    padding: 3vh 0 0 0;
+    line-height: 1.75rem;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#left-side h6{
+
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#left-side button{
+
+    width: 16vw;
+    height: 9vh;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background-color: #1048A1;
+    margin-right: 1vw;
+
+
+}
+#right-side{
+    width: 50%;
+}
+#right-side img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;    
+}
+#page-4{
+
+    width: 100%;
+    height: 55vh;
+    padding: 1.5vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 4vw; */
+    
+}
+
+#page-4 img{
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    position: relative;
+    left: 1.5%;
+}
+
+#page-4 .special-img{
+    width: 50%;
+   
+}
+#page-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 55vh;
+    margin-top: 2vw;
+    /* background-color: red; */
+}
+
+#page-5 img{
+    width: 40%;
+    /* height: 100%; */
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: 3%;
+}
+
+#page-5 #text-container{
+    width: 45%;
+    height: 100%;
+}
+
+#page-5 #text-container h6{
+    color: #000;
+    font-size: .5rem;
+    margin-bottom: 3vh;
+}
+
+#page-5 #text-container h3{
+    color: #000;
+    font-size: 1.5rem;
+    
+}
+#page-5 #text-container button{
+    border: none;
+    width: 16vw;
+    height: 9vh;
+    background-color: #1048A1;
+    font-size: .75rem;
+    text-align: center;
+    margin-right: 1vw ;
+    
 }
 
 @media (max-width:600px){
@@ -126,5 +267,110 @@ html,body{
         height: 30%;
         top: 50%;
         line-height:  10vw;
+    }
+
+    #page-1{
+        width: 100%;
+        height: 70vh;
+        margin: 0 1vh 0 .25vh;
+        
+        
+    }
+    #page-1 h6{
+        padding: 2.5vh 0 1.25vh 0;
+        color: #000;
+    }
+    #page-1 h2{
+        padding-bottom: 4vh;
+    }
+    #curosel{
+
+        height: 50%;
+        width: 100%;
+        display: flex;
+        gap: 3vw;
+    }
+
+    #curosel img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    #arrow-slides{
+
+        margin: 3vh 0;
+    }
+
+    #page-2{
+        width: 100%;
+        height: 35vh;
+    }
+
+    #page-3{
+        display: flex;
+        flex-direction: column;
+    }
+    #page-3 #left-side{
+        width: 100%;
+        height: 25vh;
+    }
+    #page-3 #left-side button{
+        width: 35vw;
+        height: 6vh;
+        text-align: center;
+        margin: 1.25vw;
+    }
+    #page-3 #right-side{
+
+        width: 100%;
+        height: 40vh;
+    }
+    #page-4{
+        /* background-color: red; */
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        gap: 7.5vh;
+        
+
+    }
+    #page-4 img{
+        width: 100%;
+    }
+        
+    #page-4 .special-img{
+        width: 100%;
+    }
+    #page-5{
+        flex-direction: column;
+        width: 100%;
+        height: 55vh;
+        gap: 7.5vh;
+        /* background-color: #1048A1; */
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #page-5 img{
+        width: 85%;
+        height: 100%;
+        margin-top: 5vw;
+    }
+    #page-5 #text-container{
+        width: 100%;
+        margin-left: 5vh;
+    }
+    #page-5 #text-container h6{
+        font-size: .75rem;
+        font-weight: 400;
+        margin-bottom: 2.5vw;
+    }
+    #page-5 #text-container h3{
+        font-size: 1.25rem;
+    }
+    #page-5 #text-container button{
+
+        width: 35vw;
+        height: 5vh;
     }
 }
