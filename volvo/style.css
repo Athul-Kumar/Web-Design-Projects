@@ -254,6 +254,24 @@ html,body{
     
 }
 
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color:#131313;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10vw 6vw;
+}
+#section-Two{
+
+    padding-left: 30vw ;
+}
+#section-One,#section-Two{
+
+    line-height: 1.75;
+}
 @media (max-width:600px){
     #homepage{
         height: 75%;
@@ -372,5 +390,26 @@ html,body{
 
         width: 35vw;
         height: 5vh;
+    }
+    #footer{
+
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+
+    }
+
+    #section-One{
+
+        padding-top: 4vh;
+    }
+    #section-Two{
+        padding: 0;
+        padding-top: 7vh;
+    }
+    #section-One,#section-Two{
+
+        line-height: 2.5;
+        
     }
 }
