@@ -3,3 +3,5 @@
 1.#spotify Login Page clone ----> #https://athul-kumar.github.io/Web-Design-Projects/spotify-Login/
 
 2.#Volvo HomePage (responsive) ===> #https://athul-kumar.github.io/Web-Design-Projects/volvo/
+
+3.#squarespace homepage (animation) ===> #https://athul-kumar.github.io/Web-Design-Projects/squarespace/
